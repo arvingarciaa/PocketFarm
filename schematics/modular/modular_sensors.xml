@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Everything/Projects/pocketfarm/schematics/modular_sensors.sch</source>
+    <date>2/9/2018 7:22:40 PM</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>modular_sensors.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/power_block/" tstamps="/5A7DACE8/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>power_block.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/arduino_breakout/" tstamps="/5A7DB14E/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>arduino_breakout.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/sensor_splitter/" tstamps="/5A7DB24A/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>sensor_splitter.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/sensor_switch/" tstamps="/5A7DB4E6/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>sensor_switch.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J2">
+      <value>Jack-DC</value>
+      <libsource lib="conn" part="Jack-DC"/>
+      <sheetpath names="/power_block/" tstamps="/5A7DACE8/"/>
+      <tstamp>5A7DB074</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Screw_Terminal_01x02</value>
+      <libsource lib="conn" part="Screw_Terminal_01x02"/>
+      <sheetpath names="/power_block/" tstamps="/5A7DACE8/"/>
+      <tstamp>5A7DB087</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>TIP120</value>
+      <footprint>TO_SOT_Packages_THT:TO-220_Vertical</footprint>
+      <libsource lib="transistors" part="TIP120"/>
+      <sheetpath names="/power_block/" tstamps="/5A7DACE8/"/>
+      <tstamp>5A7DB094</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/power_block/" tstamps="/5A7DACE8/"/>
+      <tstamp>5A7DB0A1</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4001</value>
+      <footprint>DO41-10</footprint>
+      <datasheet>DIODE GEN PURP 50V 1A DO41</datasheet>
+      <fields>
+        <field name="Field4">Micro Commercial</field>
+        <field name="Field5">Good</field>
+        <field name="Field6">0.01 USD</field>
+        <field name="Field7">DO-41 Diotec</field>
+        <field name="Field8">1N4001</field>
+      </fields>
+      <libsource lib="1N4001" part="1N4001"/>
+      <sheetpath names="/power_block/" tstamps="/5A7DACE8/"/>
+      <tstamp>5A7DB0AD</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x03_Male</value>
+      <libsource lib="conn" part="Conn_01x03_Male"/>
+      <sheetpath names="/power_block/" tstamps="/5A7DACE8/"/>
+      <tstamp>5A7DB0B4</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>RJ45</value>
+      <libsource lib="conn" part="RJ45"/>
+      <sheetpath names="/arduino_breakout/" tstamps="/5A7DB14E/"/>
+      <tstamp>5A7DB213</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x05_Male</value>
+      <libsource lib="conn" part="Conn_01x05_Male"/>
+      <sheetpath names="/arduino_breakout/" tstamps="/5A7DB14E/"/>
+      <tstamp>5A7DB21A</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x03_Male</value>
+      <libsource lib="conn" part="Conn_01x03_Male"/>
+      <sheetpath names="/sensor_splitter/" tstamps="/5A7DB24A/"/>
+      <tstamp>5A7DB43F</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x03_Male</value>
+      <libsource lib="conn" part="Conn_01x03_Male"/>
+      <sheetpath names="/sensor_splitter/" tstamps="/5A7DB24A/"/>
+      <tstamp>5A7DB446</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x03_Male</value>
+      <libsource lib="conn" part="Conn_01x03_Male"/>
+      <sheetpath names="/sensor_splitter/" tstamps="/5A7DB24A/"/>
+      <tstamp>5A7DB44D</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x03_Male</value>
+      <libsource lib="conn" part="Conn_01x03_Male"/>
+      <sheetpath names="/sensor_splitter/" tstamps="/5A7DB24A/"/>
+      <tstamp>5A7DB454</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>RJ45</value>
+      <libsource lib="conn" part="RJ45"/>
+      <sheetpath names="/sensor_splitter/" tstamps="/5A7DB24A/"/>
+      <tstamp>5A7DB45B</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>RJ45</value>
+      <libsource lib="conn" part="RJ45"/>
+      <sheetpath names="/sensor_splitter/" tstamps="/5A7DB24A/"/>
+      <tstamp>5A7DB465</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>RJ45</value>
+      <libsource lib="conn" part="RJ45"/>
+      <sheetpath names="/sensor_switch/" tstamps="/5A7DB4E6/"/>
+      <tstamp>5A7DB59A</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>RJ45</value>
+      <libsource lib="conn" part="RJ45"/>
+      <sheetpath names="/sensor_switch/" tstamps="/5A7DB4E6/"/>
+      <tstamp>5A7DB5A1</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>RJ45</value>
+      <libsource lib="conn" part="RJ45"/>
+      <sheetpath names="/sensor_switch/" tstamps="/5A7DB4E6/"/>
+      <tstamp>5A7DB5A8</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="1N4001" part="1N4001">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4001</field>
+        <field name="Footprint">DO41-10</field>
+        <field name="Datasheet">DIODE GEN PURP 50V 1A DO41</field>
+        <field name="Field4">Micro Commercial</field>
+        <field name="Field5">Good</field>
+        <field name="Field6">0.01 USD</field>
+        <field name="Field7">DO-41 Diotec</field>
+        <field name="Field8">1N4001</field>
+      </fields>
+      <pins>
+        <pin num="A" name="ANODE" type="passive"/>
+        <pin num="C" name="CATHODE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Barrel_Jack">
+      <aliases>
+        <alias>Jack-DC</alias>
+      </aliases>
+      <description>DC Barrel Jack</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x05_Male">
+      <description>Generic connector, single row, 01x05</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="RJ45">
+      <description>RJ45 connector with shield</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">RJ45</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*Terminal*Block*:*</fp>
+        <fp>TerminalBlock*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="TIP120">
+      <aliases>
+        <alias>TIP121</alias>
+        <alias>TIP122</alias>
+      </aliases>
+      <description>5A Ic, 60V Vce, Silicon Darlington Power Transistor NPN, TO-220</description>
+      <docs>http://www.fairchildsemi.com/ds/TI/TIP120.pdf</docs>
+      <footprints>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">TIP120</field>
+        <field name="Footprint">TO_SOT_Packages_THT:TO-220_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="1N4001">
+      <uri>C:\Everything\Projects\kicad-components\1N4001.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="transistors">
+      <uri>C:\Program Files\KiCad\share\kicad\library\transistors.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/power_block/Digital_Solenoid_Control">
+      <node ref="J1" pin="3"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="2" name="Net-(D1-PadA)">
+      <node ref="Q1" pin="2"/>
+      <node ref="D1" pin="A"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="3" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="5" name="Net-(J4-Pad9)">
+      <node ref="J4" pin="9"/>
+    </net>
+    <net code="6" name="VCC">
+      <node ref="J1" pin="1"/>
+      <node ref="D1" pin="C"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="J4" pin="2"/>
+      <node ref="J4" pin="3"/>
+      <node ref="J4" pin="4"/>
+      <node ref="J4" pin="5"/>
+      <node ref="J5" pin="5"/>
+      <node ref="J5" pin="4"/>
+      <node ref="J5" pin="3"/>
+      <node ref="J4" pin="6"/>
+      <node ref="J4" pin="7"/>
+      <node ref="J5" pin="2"/>
+      <node ref="J4" pin="8"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="8" name="Net-(J6-Pad9)">
+      <node ref="J6" pin="9"/>
+    </net>
+    <net code="9" name="Net-(J9-Pad9)">
+      <node ref="J9" pin="9"/>
+    </net>
+    <net code="10" name="Net-(J6-Pad5)">
+      <node ref="J6" pin="5"/>
+      <node ref="J8" pin="3"/>
+    </net>
+    <net code="11" name="Net-(J6-Pad3)">
+      <node ref="J6" pin="3"/>
+      <node ref="J7" pin="3"/>
+    </net>
+    <net code="12" name="Net-(J10-Pad3)">
+      <node ref="J10" pin="3"/>
+      <node ref="J6" pin="7"/>
+    </net>
+    <net code="13" name="/sensor_splitter/-">
+      <node ref="J6" pin="2"/>
+      <node ref="J9" pin="8"/>
+      <node ref="J9" pin="6"/>
+      <node ref="J9" pin="4"/>
+      <node ref="J9" pin="2"/>
+      <node ref="J11" pin="3"/>
+      <node ref="J6" pin="4"/>
+      <node ref="J6" pin="8"/>
+      <node ref="J6" pin="6"/>
+    </net>
+    <net code="14" name="/sensor_splitter/+">
+      <node ref="J11" pin="2"/>
+      <node ref="J9" pin="1"/>
+      <node ref="J6" pin="1"/>
+    </net>
+    <net code="15" name="/sensor_splitter/SEN2">
+      <node ref="J8" pin="2"/>
+      <node ref="J9" pin="5"/>
+    </net>
+    <net code="16" name="/sensor_splitter/A">
+      <node ref="J7" pin="1"/>
+      <node ref="J11" pin="1"/>
+      <node ref="J8" pin="1"/>
+      <node ref="J10" pin="1"/>
+    </net>
+    <net code="17" name="/sensor_splitter/SEN1">
+      <node ref="J9" pin="3"/>
+      <node ref="J7" pin="2"/>
+    </net>
+    <net code="18" name="/sensor_splitter/SEN3">
+      <node ref="J9" pin="7"/>
+      <node ref="J10" pin="2"/>
+    </net>
+    <net code="19" name="Net-(J12-Pad6)">
+      <node ref="J13" pin="6"/>
+      <node ref="J14" pin="6"/>
+      <node ref="J12" pin="6"/>
+    </net>
+    <net code="20" name="Net-(J12-Pad7)">
+      <node ref="J12" pin="7"/>
+      <node ref="J14" pin="7"/>
+      <node ref="J13" pin="7"/>
+    </net>
+    <net code="21" name="Net-(J12-Pad8)">
+      <node ref="J12" pin="8"/>
+      <node ref="J14" pin="8"/>
+      <node ref="J13" pin="8"/>
+    </net>
+    <net code="22" name="Net-(J12-Pad5)">
+      <node ref="J12" pin="5"/>
+      <node ref="J13" pin="5"/>
+      <node ref="J14" pin="5"/>
+    </net>
+    <net code="23" name="Net-(J12-Pad4)">
+      <node ref="J12" pin="4"/>
+      <node ref="J14" pin="4"/>
+      <node ref="J13" pin="4"/>
+    </net>
+    <net code="24" name="Net-(J12-Pad3)">
+      <node ref="J13" pin="3"/>
+      <node ref="J12" pin="3"/>
+      <node ref="J14" pin="3"/>
+    </net>
+    <net code="25" name="Net-(J12-Pad2)">
+      <node ref="J13" pin="2"/>
+      <node ref="J14" pin="2"/>
+      <node ref="J12" pin="2"/>
+    </net>
+    <net code="26" name="Net-(J12-Pad1)">
+      <node ref="J14" pin="1"/>
+      <node ref="J13" pin="1"/>
+      <node ref="J12" pin="1"/>
+    </net>
+    <net code="27" name="Net-(J12-Pad9)">
+      <node ref="J12" pin="9"/>
+    </net>
+    <net code="28" name="Net-(J14-Pad9)">
+      <node ref="J14" pin="9"/>
+    </net>
+    <net code="29" name="Net-(J13-Pad9)">
+      <node ref="J13" pin="9"/>
+    </net>
+  </nets>
+</export>
