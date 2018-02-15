@@ -1,0 +1,9 @@
+Reference Type, Quantity, Reference, Value, Footprint, Datasheet
+"D","1","D1,","1N4001","Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal",""
+"J","2","J4,J3,","Conn_01x04_Male","Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm",""
+"J","1","J1,","Jack-DC","Connectors:BARREL_JACK",""
+"J","1","J2,","RJ45_BREAKOUT","Connectors:RJ45_8",""
+"J","1","J5,","Screw_Terminal_01x02","Connectors_Terminal_Blocks:TerminalBlock_bornier-2_P5.08mm",""
+"Q","1","Q1,","TIP120","TO_SOT_Packages_THT:TO-220-3_Horizontal",""
+"R","1","R1,","1k","Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal",""
+"XA","1","XA1,","Arduino_Uno_Shield","Arduino:Arduino_Uno_Shield",""
